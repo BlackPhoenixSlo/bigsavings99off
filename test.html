@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url("https://via.placeholder.com/150");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.section, .bonus {
+  display: flex;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bonus:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.bonus::before {
+  content: attr(data-bonus);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  background: white;
+  padding: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image-section, .text-section {
+  flex: 1;
+}
+
+.bold-desc {
+  font-weight: bold;
+  margin-top: 10px;
+  width: 150px;  /* added width to match image */
+}
+
+.why-choose-us {
+  text-align: right;
+}
+
+.why-choose-us h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.why-choose-us button {
+  margin: 10px auto;
+  display: block;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .section, .bonus {
+    flex-direction: column;
+  }
+  .bold-desc {
+    width: 100%;  /* full width on small screens */
+  }
+}
+
+/* Added and updated styles for FAQ */
+.faq p {
+  display: none;
+  transition: display 1s ease;
+}
+
+.faq div {
+  cursor: pointer;
+}
+
+.faq-section {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.faq h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+</style>
+
+<!-- Updated JavaScript for FAQ -->
+<script>
+  function toggleAnswer(event) {
+    let allAnswers = document.querySelectorAll('.faq p');
+    allAnswers.forEach((answer) => {
+      if(answer !== event.currentTarget.nextElementSibling) {
+        answer.style.display = 'none';
+      }
+    });
+    let answer = event.currentTarget.nextElementSibling;
+    answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+  }
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="background">
+    <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">Ice Cream Paradise</h1>
+    <button>Order Now</button>
+  </div>
+
+  <div class="section">
+    <div class="image-section">
+      <img src="https://via.placeholder.com/150">
+      <p class="bold-desc">Our new Mango Delight and Berry Fusion flavors!</p>
+    </div>
+    <div class="text-section">
+      <h2>Our Special Flavors</h2>
+      <p>We offer a wide range of unique and delicious flavors made from the freshest ingredients.</p>
+    </div>
+  </div>
+
+  <div class="why-choose-us">
+    <h1>Why Choose Us</h1>
+    <button>Find Out More</button>
+  </div>
+
+  <h1>Special Offers</h1>
+
+  <div class="bonus" data-bonus="FREE BONUS #1:">
+    <div class="image-section">
+      <img src="https://via.placeholder.com/150">
+      <p class="bold-desc">Buy 2 scoops, get the third free!</p>
+    </div>
+    <div class="text-section">
+      <h3>Buy 2, Get 1 Free</h3>
+      <p>When you buy 2 scoops of any flavor, get the third scoop absolutely free.</p>
+      <p>This offer is valid all day, every day!</p>
+    </div>
+  </div>
+
+  <div class="bonus" data-bonus="FREE BONUS #2:">
+    <div class="image-section">
+      <img src="https://via.placeholder.com/150">
+      <p class="bold-desc">Enhance your ice cream with free toppings every Tuesday!</p>
+    </div>
+    <div class="text-section">
+      <h3>Free Topping Tuesday</h3>
+      <p>Every Tuesday, get a free topping of your choice with any ice cream purchase.</p>
+      <p>Choose from a variety of delicious toppings to enhance your ice cream experience.</p>
+    </div>
+  </div>
+
+  <div class="bonus" data-bonus="FREE BONUS #3:">
+    <div class="image-section">
+      <img src="https://via.placeholder.com/150">
+      <p class="bold-desc">Get rewarded for your love of ice cream with our Loyalty Rewards Program!</p>
+    </div>
+    <div class="text-section">
+      <h3>Loyalty Rewards Program</h3>
+      <p>Join our Loyalty Rewards Program to earn points with every purchase.</p>
+      <p>Accumulate points and redeem them for free ice cream and other cool rewards.</p>
+    </div>
+  </div>
+
+  <button>Join Our Rewards Program</button>
+
+  <img src="https://via.placeholder.com/150">
+
+  <!-- FAQ Section -->
+  <div class="faq-section">
+    <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">FAQs</h1>
+    <!-- Add your FAQ questions and answers here. -->
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>Question 1</b></div>
+      <p>Answer 1</p>
+    </div>
+    <div class="faq">
+        <div onclick="toggleAnswer(event)"><b>Question 2</b></div>
+        <p>Answer 2</p>
+      </div>
+      <div class="faq">
+        <div onclick="toggleAnswer(event)"><b>Question 3</b></div>
+        <p>Answer 3</p>
+      </div>
+    <!-- Add more questions as needed. -->
+  </div>
+
+  <button>Order Now</button>
+
+  <footer>
+    <p>Ice Cream Paradise</p>
+    <p>123 Ice Cream Lane, Paradise City</p>
+    <p>Contact us at (123) 456-7890 or email us at contact@icecreamparadise.com</p>
+    <p>©2023 Ice Cream Paradise. All Rights Reserved.</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
