@@ -1,0 +1,21 @@
+<article id="post-429" class="post-429 page type-page status-publish" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		
+			<header class="entry-header" aria-label="Content">
+				<h1 class="entry-title" itemprop="headline">[benefit-title]</h1>			</header>
+
+			
+		<div class="entry-content" itemprop="text">
+			<p>[introductory-hook]</p>
+<ol>
+<li>[benefit-point1]</li>
+<li>[benefit-point2]</li>
+<li>[statistic1]</li>
+</ol>
+<p><strong>[product-name]</strong> [product-method-description]</p>
+
+<h3 style="text-align: center;"><strong>[product-name-title]</strong></h3>
+		</div>
+
+			</div>
+</article>

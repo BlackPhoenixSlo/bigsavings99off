@@ -129,7 +129,15 @@ placeholders    = [
 '[comment2]',
 '[response2]',
 '[comment1]',
-'[response1]'
+'[response1]',
+'[benefit-title]'	,
+'[introductory-hook]',
+'[benefit-point1]', 
+'[benefit-point2]'	,
+'[statistic1]'	,
+'[product-name]'	,
+'[product-method-description]'	,
+'[product-name-title]'	,
 ]
 
 # List of replacements
@@ -259,10 +267,16 @@ replacements = [
 "The one-on-one coaching call was a game-changer for me. It helped me to personalize the course to my specific needs and circumstances."	,
 "We're delighted to know the coaching call was beneficial for you. Personalized guidance can make all the difference!"	,
 "I've taken other personal development courses, but none were as comprehensive and practical as this one. The Life Unlocker Course is truly a game-changer!"	,
-"Your positive feedback means a lot to us. We're proud to provide a practical, comprehensive course to help individuals unlock their potential!"	
+"Your positive feedback means a lot to us. We're proud to provide a practical, comprehensive course to help individuals unlock their potential!"	,"Discover the Benefits of the Air Fountain System"	,
+"Are you tired of relying on expensive bottled water or facing water scarcity? Introducing the Air Fountain System, the revolutionary solution that allows you to generate your own clean drinking water at home!"	,
+"Save Money: Eliminate the need to purchase bottled water and reduce your expenses on water bills."	,
+"Sustainable Water Source: Gain access to a reliable and sustainable source of clean water, even in drought-prone areas or during emergencies."	,
+"According to a study conducted by XYZ Research, the Air Fountain System has helped users save up to 50% on their monthly water expenses."	,
+"Air Fountain System"	,
+"The Air Fountain System utilizes the principle of water condensation to extract moisture from the air, collecting it as fresh, drinkable water in a storage container. With simple assembly and easy-to-follow instructions, you can set up the system and start generating clean water in no time."	,
+"Learn About the Air Fountain System"	,
 
 
-    
     
     
     ]
@@ -276,8 +290,24 @@ if len(placeholders) != len(replacements):
 
 # Replace placeholders with replacements
 for i in range(len(placeholders)):
-    html_content = html_content.replace(placeholders[i], replacements[i])
+    if(placeholders[i] in html_content ):
+        html_content = html_content.replace(placeholders[i], replacements[i])
 
 # Write the new HTML to a file.
 with open('updated.html', 'wb') as file:
+    file.write(html_content.encode())
+ 
+
+
+with open('top-recomendations updated.txt', 'rb') as file:
+    html_content = file.read().decode(errors='replace')
+
+# Replace placeholders with replacements
+for i in range(len(placeholders)):
+    if(placeholders[i] in html_content ):
+        html_content = html_content.replace(placeholders[i], replacements[i])
+
+
+# Write the new HTML to a file.
+with open('article.html', 'wb') as file:
     file.write(html_content.encode())
