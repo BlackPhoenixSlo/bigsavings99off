@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" 
+      
+      href="https://cdn2.iconfinder.com/data/icons/solar_system_png/512/Earth.png">
+
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+html {
+  background: linear-gradient(#27C6F5, #9CEBF7);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url("water.jpeg");
+  background-size: cover;
+  text-align: center;
+  background-position: bottom;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  height: 60vh;
+  min-height: 650px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.section, .bonus {
+  display: flex;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 998px) {
+.bonus:nth-child(even) {
+  flex-direction: row-reverse;
+}
+}
+
+.bonus::before {
+  content: attr(data-bonus);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  background: white;
+  font-size: 1.5em;
+
+  padding: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image-section, .text-section {
+  flex: 1;
+}
+
+.bold-desc {
+  font-weight: bold;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.why-choose-us {
+  text-align: right;
+}
+
+.why-choose-us h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.why-choose-us button, .email-collection input[type="submit_form"], .background button {
+  margin: 10px auto;
+  display: block;
+  background-color: #F6F16D;
+  color: 010000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.email-collection {
+  text-align: center;
+  padding: 20px;
+}
+
+.email-collection input[type="email"] {
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size:1.8em;
+
+}
+
+.bonus , .why-choose-us , .section{
+  max-width: 60%;
+}
+
+.main_photo{
+
+  height: 40vh; 
+  position: absolute;
+   z-index: -1; 
+   margin-left: -5vh;
+}
+
+
+.faq p {
+  display: none;
+  transition: display 1s ease;
+}
+
+.faq div {
+  cursor: pointer;
+}
+
+.faq-section {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.faq h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(#9CEBF7, #2a3168);
+  width: 100%;
+}
+img{
+  max-width: 300px;
+}
+footer p {
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+p{  font-size: 1.2em;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+}
+
+h1, h2, h3 {
+  color: #1E3FA3;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.bold-desc {
+  font-weight: bold;
+  color: #333;
+}
+
+.email-collection input[type="email"] {
+  font-size: 1em;
+  padding: 0.6em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.email-collection button {
+  font-size: 2em;
+  font-style: bold;
+  padding: 0.6em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email-collection button:hover {
+  background-color: #444;
+}
+
+.faq-section {
+  margin: 2em 0;
+}
+
+.faq-section .faq b {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.faq-section .faq p {
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+.footer p {
+  font-size: 0.9em;
+  color: #999;
+}
+
+
+.container-first{
+margin-top: 25vh;
+}
+@media screen and (max-width: 998px) {
+  .section, .bonus {
+    flex-direction: column;
+
+  }
+
+
+  .image-section p {
+    font-size: 0.8em;
+  }
+  .background h1{
+    font-size: 4em;
+  }
+  .main_photo{
+
+    width: 800px;
+margin: 0;
+padding: 0;
+position: absolute;
+ z-index: -1; 
+ margin-left: -30vw;
+}
+
+  .bonus , .why-choose-us , .section, .faq-section , .faq{
+  max-width: 95%;
+  }
+  .faq{
+    width: 95%;
+    font-size: 1.2em;
+
+  }
+img{
+  width: 800px;
+  max-width: 990px;
+}
+  .background {
+  background-image: url("water.jpeg");
+  background-size: cover;
+  text-align: center;
+  background-position: bottom;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  height: 66vh;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.email-collection{
+  font-size:2em;
+  margin-bottom: 10vh;
+}
+.container-first{
+margin-top: 28vh;
+}
+.email-collection input[type="email"] {
+  width: 70vw;
+  font-size:1.8em;
+ 
+}
+
+.bonus::before {
+  content: attr(data-bonus);
+
+  font-size: 2.3em;
+
+}
+
+
+
+
+}
+
+
+</style>
+
+<script>
+  function toggleAnswer(event) {
+    let allAnswers = document.querySelectorAll('.faq p');
+    allAnswers.forEach((answer) => {
+      if(answer !== event.currentTarget.nextElementSibling) {
+        answer.style.display = 'none';
+      }
+    });
+    let answer = event.currentTarget.nextElementSibling;
+    answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+  }
+
+  // function submitForm(event, formId) {
+  //   event.preventDefault();
+  
+  //   var form = document.getElementById(formId);
+  //   var email = form.email.value;
+  
+  //   if(email) {
+  //     fetch('your_server_endpoint', {
+  //       method: 'POST',
+  //       body: JSON.stringify({email: email}),
+  //       headers: {
+  //         'Content-Type': 'application/json'
+  //       }
+  //     });
+  //   }
+  
+  //   window.location.href = 'https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain';
+  // }
+</script>
+</head>
+<body>
+
+  <script>
+
+    //update this with your js_form selector
+    var form_id_js = "javascript_form";
+
+    var data_js = {
+        "access_token": "zark11wudixq4u5pcwanh5ho"
+    };
+
+    function js_onSuccess() {
+        // remove this to avoid redirect
+        window.location = "https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain";
+    }
+
+    function js_onError(error) {
+        // remove this to avoid redirect
+        window.location = "https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain";
+    }
+
+    var sendButton = document.getElementById("js_send");
+
+    function js_send() {
+        sendButton.value='Sending…';
+        sendButton.disabled=true;
+        var request = new XMLHttpRequest();
+        request.onreadystatechange = function() {
+            if (request.readyState == 4 && request.status == 200) {
+                js_onSuccess();
+            } else
+            if(request.readyState == 4) {
+                js_onError(request.response);
+            }
+        };
+
+        var subject = "jaka";
+        var message = document.querySelector("#" + form_id_js + " [name='text']").value;
+        data_js['subject'] = subject;
+        data_js['text'] = message;
+        var params = toParams(data_js);
+
+        request.open("POST", "https://postmail.invotes.com/send", true);
+        request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+        request.send(params);
+
+        return false;
+    }
+
+    sendButton.onclick = js_send;
+
+    function toParams(data_js) {
+        var form_data = [];
+        for ( var key in data_js ) {
+            form_data.push(encodeURIComponent(key) + "=" + encodeURIComponent(data_js[key]));
+        }
+
+        return form_data.join("&");
+    }
+
+    var js_form = document.getElementById(form_id_js);
+    js_form.addEventListener("submit", function (e) {
+        e.preventDefault();
+    });
+</script>
+
+
+
+  
+       
+  <!-- optional, prevents the submit button from being pressed more than once -->
+  <script>
+      var submitButton = document.getElementById("submit_form");
+      var form = document.getElementById("email_form");
+      form.addEventListener("submit", function (e) {
+          setTimeout(function() {
+              submitButton.value = "Sending...";
+              submitButton.disabled = true;
+          }, 1);
+      });
+  </script> 
+  
+<div class="container">
+
+  <div class="background" style="color: #000000;">
+    <h1>Discover How You Can Survive the 
+      Upcoming <br> 100- Year Mega-Drought <br> Using 
+      the "Air Fountain"</h1>
+    <img class="main_photo" src="Air-Fountain-Cover.png" >
+
+    <div class="email-collection container-first">
+
+      <form class="newsletter-form email" action="https://postmail.invotes.com/send"
+      method="post" id="email_forme">
+      
+      <input type="hidden" type="text" name="subject" placeholder="Email" value="Airfountain" />
+      <input type="email" name="text" placeholder="Enter your email" ></input>
+      <input type="hidden" name="access_token" value="zark11wudixq4u5pcwanh5ho" />
+        <!-- return urls can be fully qualified -OR-
+           start with / for root relative -OR-
+           start with . for url relative --> 
+      <input type="hidden" name="success_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+      <input type="hidden" name="error_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+     
+  
+      <!-- set the reply-to address -->
+      <!-- <input type="text" name="reply_to"
+                  placeholder="Your Email" /> -->
+  
+      <!-- to append extra fields, use the extra_ prefix.
+          Entries will be appended to your message body. -->
+      <!-- <input type="text" name="extra_phone_number"
+                  placeholder="Phone Number" /> -->
+  
+      <!-- to split your message into 160 chars
+           for an sms gateway -->
+      <!-- <input type="hidden"
+                  name="sms_format" value="true" /> -->
+     
+      <button id="submit_form"  type="submit">GET INSTANT ACCESS</button>
+      <p class="bold-desc" style="color: rgb(255, 255, 255); box-shadow: #000;">Lowest Price + FREE Bonuses</p>
+      <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+  
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="image-section">
+      <img src="Air-Fountain-Cover.png" >
+      <p class="bold-desc">How To Secure Your Water Reserves: <br> This bonus report helps you
+        understand <br> how to enhance the water storage system <br> in your home. </p>
+    </div>
+    <div class="text-section">
+      <h2>You're Probably Wondering What this Air
+        Fountain is, right?</h2>
+      <p>It's the only proven-to-work A to Z blueprint on how to survive America's
+        upcoming 100-year long drought. And the easiest step-by-step video guide that
+        anyone can use to build their own "thin air water generator" no matter if you have
+        no money to spend on a ridiculous off-the-shelf $10k device.</p>
+
+        <p> I put together these simple instructions so you can provide clean fresh water for
+          your family no matter what's heading our way.</p>
+
+          <p>No matter if you don't have the time or patience to go through trials and errors...
+            no matter if you've never built anything before (not even an IKEA chair).</p>
+
+            <p>The benefits are nothing short of amazing.</p>
+    </div>
+  </div>
+
+  <div class="why-choose-us">
+    <h1>"Air Fountain" system is THE solution if you want to be water self-sufficient.</h1>
+    <div class="email-collection ">
+
+      <form class="newsletter-form email" action="https://postmail.invotes.com/send"
+      method="post" id="email_forme">
+      
+      <input type="hidden" type="text" name="subject" placeholder="Email" value="Airfountain" />
+      <input type="email" name="text" placeholder="Enter your email" ></input>
+      <input type="hidden" name="access_token" value="zark11wudixq4u5pcwanh5ho" />
+        <!-- return urls can be fully qualified -OR-
+           start with / for root relative -OR-
+           start with . for url relative --> 
+      <input type="hidden" name="success_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+      <input type="hidden" name="error_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+     
+  
+      <!-- set the reply-to address -->
+      <!-- <input type="text" name="reply_to"
+                  placeholder="Your Email" /> -->
+  
+      <!-- to append extra fields, use the extra_ prefix.
+          Entries will be appended to your message body. -->
+      <!-- <input type="text" name="extra_phone_number"
+                  placeholder="Phone Number" /> -->
+  
+      <!-- to split your message into 160 chars
+           for an sms gateway -->
+      <!-- <input type="hidden"
+                  name="sms_format" value="true" /> -->
+     
+      <button id="submit_form"  type="submit">GET INSTANT ACCESS</button>
+      <p class="bold-desc" style="color: rgb(255, 255, 255); box-shadow: #000;">Lowest Price + FREE Bonuses</p>
+      <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+  
+    </div>
+  </div>
+
+  <h1>You'll Also Receive 3 Exclusive Reports Completely FREE Of Charge:</h1>
+
+  <div class="bonus" data-bonus="FREE BONUS #1:">
+    <div class="image-section">
+      <img src="How-to-Store-and-Secure-Your-Water-Reserve.png">
+      <p class="bold-desc">How To Purify And Mineralise Water:  <br>In this report, you find secret
+        techniques  <br>that you can do by yourself at home.</p>
+    </div>
+    <div class="text-section">
+      <h3> How to Secure Your Water
+        Reserves ($49 value)</h3>
+      <p>You already have the perfect solution to make as much water as you
+        need. This special report will show you all the must-know strategies
+        and best-kept secrets if you really need to stockpile the water you're
+        generating.</p>
+      <p>I wouldn't have ended up in the hospital two years ago if I had the
+        amazing knowledge packed in this report. You'll find out about all the
+        important tools and equipment you'll need.</p>
+        <p>The best and most surprising places where you can keep your water.
+          How to keep your water running even on freezing days and much
+          more. You'll never second-guess yourself anymore when it comes to
+          your water stash.</p>
+    </div>
+  </div>
+
+  <div class="bonus" data-bonus="FREE BONUS #2:">
+    <div class="image-section">
+     <img src="How-to-Purify-and-Re-mineralize-Water_spirala.png">
+      <p class="bold-desc">How To Purify And Mineralise Water:  <br> In this report, you find secret
+        techniques  <br> that you can do by yourself at home. </p>
+    </div>
+    <div class="text-section">
+      <h3>How to Purify and Mineralize
+        Water
+        ($49 value)</h3>
+      <p>A special report on how to get rid of expensive filters and make sure
+        you're drinking only the healthiest water.</p>
+      <p>It gives you all the DIY techniques to purify any kind of water and
+        turn it into crystal-clear fresh H2O. You'll find out 9 secret techniques
+        to get the most from even the dirtiest water source. Discover
+        evervthina vou'll ever need to know about filtration, boiling, solar
+        water disinfection, how iodine works and more.</p>
+        <p>You'll even get to know the insiders' secret about how you can use
+          banana peels to filter water. And everything you need to know about
+          water re-mineralization.</p>
+          <p>This is important because you'll need the minerals in your water
+            especially if you can't eat properly or you've been out in the
+            nauseating heat. So no matter what happens... you'll have the power
+            to turn any kind of water into fresh, clean and healthy H2O.</p>
+    </div>
+  </div>
+  <div class="why-choose-us">
+    <div class="email-collection ">
+
+      <form class="newsletter-form email" action="https://postmail.invotes.com/send"
+      method="post" id="email_forme">
+      
+      <input type="hidden" type="text" name="subject" placeholder="Email" value="Airfountain" />
+      <input type="email" name="text" placeholder="Enter your email" ></input>
+      <input type="hidden" name="access_token" value="zark11wudixq4u5pcwanh5ho" />
+        <!-- return urls can be fully qualified -OR-
+           start with / for root relative -OR-
+           start with . for url relative --> 
+      <input type="hidden" name="success_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+      <input type="hidden" name="error_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+     
+  
+      <!-- set the reply-to address -->
+      <!-- <input type="text" name="reply_to"
+                  placeholder="Your Email" /> -->
+  
+      <!-- to append extra fields, use the extra_ prefix.
+          Entries will be appended to your message body. -->
+      <!-- <input type="text" name="extra_phone_number"
+                  placeholder="Phone Number" /> -->
+  
+      <!-- to split your message into 160 chars
+           for an sms gateway -->
+      <!-- <input type="hidden"
+                  name="sms_format" value="true" /> -->
+     
+      <button id="submit_form"  type="submit">GET INSTANT ACCESS</button>
+      <p class="bold-desc" style="color: rgb(255, 255, 255); box-shadow: #000;">Lowest Price + FREE Bonuses</p>
+      <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+  
+    </div>
+  </div>
+  <div class="bonus" data-bonus="FREE BONUS #3:">
+    <div class="image-section">
+      <img src="The-Deadly-Agents-Hidden-in-Your-Water.png">
+      <p class="bold-desc">The Deadly Agents Hidden In Your Water: <br> This bonus consists of
+        information related <br> to toxins present in your water that are  <br> not visible to the
+        naked eye.</p>
+    </div>
+    <div class="text-section">
+      <h3>The Deadly Agents Hidden in
+        Your Water
+        ($49 value)</h3>
+      <p>This special course shows you everything you need to know about
+        the invisible toxins in your water.</p>
+      <p>Even though your water may seem perfectly safe to drink you might
+        be in for a world of pain. This special report gives you all the
+        information and knowledge to identify each and every one of these
+        poisonous
+        substances. From fluoride, arsenic and lead to parasitic protoza, worms and other viruses and bacteria.</p>
+        <p>Plus, you'll find out the 6 ways nature contaminates your water and
+          how to stay away from them. This special guide will give you practical
+          knowledge to prevent and treat waterborne infections and will
+          expose the ineffective water purification methods and equipment
+          that actually do more harm than good.</p>
+    </div>
+  </div>
+
+  
+
+  <img src="bZBxryUMHbkZLLU.png">
+
+  <!-- FAQ Section -->
+  <div class="faq-section">
+    <h1>FAQs</h1>
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>What is the Air Fountain System?</b></div>
+      <p>The Air Fountain System is a digital guide that provides a step-by-step tutorial for creating a home-based water-generating device. This system is particularly beneficial for people living in drought-prone areas, as it can generate water directly from the air via condensation. All that's needed to operate the system is a source of power supply or a car battery. The materials required to build the system are affordable and easily available.</p>
+    </div>
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>How does the Air Fountain System work?</b></div>
+      <p>The Air Fountain System works on the principle of water condensation. Water particles are ever-present in the air around us, and these can be extracted and collected using this system. Once the system is assembled and initiated, the air around the container is collected inside it. When this air is cooled, water droplets begin to form and are collected in a storage device. This process allows the system to produce over 10 gallons of fresh water per day.</p>
+    </div>
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>What components are included in the Air Fountain System?</b></div>
+      <p>The Air Fountain System is comprised of a digital guide containing detailed instructions and a step-by-step blueprint for building the water generator. The system also provides techniques to generate more than 10 gallons of water daily and ways to construct the air water fountain within an hour. Additionally, the guide includes methods to save money on bottled water and to produce clean, drinkable water even during droughts.</p>
+    </div>
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>What are the benefits of the Air Fountain System?</b></div>
+      <p>The Air Fountain System offers numerous benefits. It provides clear, easy-to-follow instructions and requires affordable, readily available materials. The system is compact, portable, and capable of generating over 10 gallons of water daily. It includes methods to eliminate toxins from water and can be set up anywhere. Additionally, it can significantly reduce the cost of purchasing bottled water, and it provides a reliable source of water in drought conditions.</p>
+    </div>
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>Who is the Air Fountain System for?</b></div>
+      <p>The Air Fountain System is designed for anyone struggling with water access or living in drought-prone areas. It is also suitable for individuals seeking alternative methods for obtaining clean water. The system is user-friendly, and can be easily set up even by those who have no prior experience with similar devices.</p>
+    </div>
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>What is the cost of the Air Fountain System?</b></div>
+      <p>The Air Fountain System is available for $27 on its official website, a discount from the original price of $39. This price includes access to three bonus reports on securing water reserves, purifying and mineralizing water, and understanding the hidden toxins in your water. The purchase is backed by a 60-day, no-questions-asked money-back guarantee.</p>
+    </div>
+    <div class="faq">
+      <div onclick="toggleAnswer(event)"><b>Does the Air Fountain System really work?</b></div>
+      <p>Yes, the Air Fountain System is based on a well-researched, proven method of water generation – condensation. As long as you follow the steps as described in the guide, the system should work effectively, allowing you to produce fresh, clean water in your own home, even during times of severe water shortage.</p>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="why-choose-us">
+    <div class="email-collection ">
+
+      <form class="newsletter-form email" action="https://postmail.invotes.com/send"
+      method="post" id="email_forme">
+      
+      <input type="hidden" type="text" name="subject" placeholder="Email" value="Airfountain" />
+      <input type="email" name="text" placeholder="Enter your email" ></input>
+      <input type="hidden" name="access_token" value="zark11wudixq4u5pcwanh5ho" />
+        <!-- return urls can be fully qualified -OR-
+           start with / for root relative -OR-
+           start with . for url relative --> 
+      <input type="hidden" name="success_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+      <input type="hidden" name="error_url" value="https://ea502kg7xacgnna-yh8axd1dqu.hop.clickbank.net/?tid=airfountain" />
+     
+  
+      <!-- set the reply-to address -->
+      <!-- <input type="text" name="reply_to"
+                  placeholder="Your Email" /> -->
+  
+      <!-- to append extra fields, use the extra_ prefix.
+          Entries will be appended to your message body. -->
+      <!-- <input type="text" name="extra_phone_number"
+                  placeholder="Phone Number" /> -->
+  
+      <!-- to split your message into 160 chars
+           for an sms gateway -->
+      <!-- <input type="hidden"
+                  name="sms_format" value="true" /> -->
+     
+      <button id="submit_form"  type="submit">GET INSTANT ACCESS</button>
+      <p class="bold-desc" style="color: rgb(255, 255, 255); box-shadow: #000;">Lowest Price + FREE Bonuses</p>
+      <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+  
+    </div>
+  </div>
+
+  <footer>
+    <p>For more information, please visit our official website.</p>
+    <p>Follow us on our social media channels for updates and promotions.</p>
+    <p>©2023 Air Fountain. All Rights Reserved.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
