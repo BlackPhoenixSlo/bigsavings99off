@@ -14,7 +14,7 @@
 </ol>
 <p><strong>[product-name]</strong> [product-method-description]</p>
 
-<h3 style="text-align: center;"><strong>[product-name-title]</strong></h3>
+<a href="[linklink]"> <h3 style="text-align: center;"><strong>[product-name-title]</strong></h3></a>
 		</div>
 
 			</div>

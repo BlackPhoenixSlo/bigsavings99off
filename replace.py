@@ -4,6 +4,7 @@ with open('updated.txt', 'rb') as file:
 
 # List of placeholders
 placeholders    = [
+'[linklink]',
 '[benefit-title]',
 '[introductory-hook]',
 '[author-description]',
@@ -142,6 +143,9 @@ placeholders    = [
 
 # List of replacements
 replacements = [
+    'linklink',
+
+
  "Unlock Your Potential: Revolutionary Life Improvement Course!"	,
 "Imagine waking up every day, feeling energized and knowing that you're living your life to its fullest potential. That's exactly what this course promises to deliver!"	,
 "Hi, I'm Gary Halbert, a seasoned copywriter and your guide on this transformative journey."	,
