@@ -1629,7 +1629,7 @@
                                             style="color: #ff0000;">unethical</span> [product-name-title]:</strong></h3>
                                 <p>[transition-to-ethics]</p>
                                 <p><span style="color: #ff0000;"><strong>[unethical-point1]</strong></span> [unethical-elaboration1]</p>
-                                <p><span style="color: #ff0000;"><strong>[unethical-point1]</strong></span> [unethical-elaboration2]</p>
+                                <p><span style="color: #ff0000;"><strong>[unethical-point2]</strong></span> [unethical-elaboration2]</p>
                                 <p><strong>[transition-to-ethical]</strong></p>
 
                                 <p><span style="color: #008000;"><strong>[ethical-point1]</strong></span> [ethical-elaboration1]</p>
