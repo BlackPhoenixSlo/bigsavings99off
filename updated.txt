@@ -1753,6 +1753,8 @@
                                                 <div class="comment-content" itemprop="text">
                                                     <p>[response5]</p>
                                                      <a href="[linklink]"> Visit the Official Website to Check Offer of the Day!!</a>
+                                                     <br>
+                                                     <br>
                                                     <span class="reply"><a rel='nofollow' class='comment-reply-link'
                                                             href='#=196#respond' data-commentid="196" data-postid="413"
                                                             data-belowelement="div-comment-196"
