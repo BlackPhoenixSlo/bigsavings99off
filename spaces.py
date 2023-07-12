@@ -1,154 +1,4 @@
-# Open and read the HTML file.
-with open('updated.txt', 'rb') as file:
-    html_content = file.read().decode(errors='replace')
-
-# List of placeholders
-placeholders    = [
-'[linklink]',
-'[benefit-title]',
-'[introductory-hook]',
-'[author-description]',
-'[my-authors-opinion]',
-'[product-target-audience]',
-'[target-audience1]',
-'[target-audience2]',
-'[target-audience3]',
-'[target-audience4]',
-'[target-audience5]',
-'[personal-results-description]',
-'[product-benefit1]',
-'[product-name]',
-'[product-method-benefit]',
-'[product-method-description]',
-'[product-beneficiary-description]',
-'[example-company1]',
-'[example-company2]',
-'[example-company3]',
-'[example-company4]',
-'[transition-to-key-points]',
-'[key-point1]',
-'[key-point2]',
-'[benefit-examples-title]',
-'[benefit-example1]',
-'[benefit-example2]',
-'[benefit-example3]',
-'[benefit-example4]',
-'[benefit-example5]',
-'[conclusion-formula]',
-'[transition-to-stats]',
-'[statistic1]',
-'[transition-to-steps]',
-'[transition-to-benefits]',
-'[benefit-point1]',
-'[benefit-explanation1]',
-'[benefit-usecase1]',
-'[transition-to-benefit2]',
-'[benefit-point2]',
-'[benefit-explanation2]',
-'[benefit-usecase2]',
-'[step1-title]',
-'[step1-description1]',
-'[step1-description2]',
-'[step1-description3]',
-'[transition-to-step1-topics]',
-'[step1-topic1]',
-'[step1-topic2]',
-'[step1-topic3]',
-'[step1-topic4]',
-'[step1-topic5]',
-'[step2-title]',
-'[step2-description1]',
-'[step2-description2]',
-'[step2-description3]',
-'[step3-title]',
-'[step3-description1]',
-'[step3-description2]',
-'[transition-to-step3-topics]',
-'[step3-topic1]',
-'[step3-topic2]',
-'[step3-topic3]',
-'[step3-topic4]',
-'[step3-topic5]',
-'[step3-conclusion1]',
-'[step3-conclusion2]',
-'[step3-elaboration1]',
-'[step3-elaboration2]',
-'[step4-title]',
-'[transition-to-step4]',
-'[transition-to-step4-explanation]',
-'[step4-explanation-conclusion]',
-'[step4-topic1]',
-'[step4-topic2]',
-'[step4-topic3]',
-'[step4-topic4]',
-'[step4-topic5]',
-'[4-steps-conclusion]',
-'[putting-it-all-together-title]',
-'[transition-to-system-benefits]',
-'[system-benefit1]',
-'[system-benefit2]',
-'[system-benefit3]',
-'[system-benefit4]',
-'[system-benefit5]',
-'[product-name-title]',
-'[transition-to-ethics]',
-'[unethical-point1]',
-'[unethical-elaboration1]',
-'[unethical-point2]',
-'[unethical-elaboration2]',
-'[transition-to-ethical]',
-'[ethical-point1]',
-'[ethical-elaboration1]',
-'[ethical-point2]',
-'[ethical-elaboration2]',
-'[how-to-start-title]',
-'[how-to-start-paragraph1]',
-'[how-to-start-paragraph2]',
-'[transition-to-bonus]',
-'[bonus-offer1]',
-'[bonus-offer2]',
-'[bonus-offer3]',
-'[bonus-offer4]',
-'[proof-section-title]',
-'[bonus-section]',
-'[bonus-option1]',
-'[bonus-option2]',
-'[bonus-option3]',
-'[recommendation-paragraph]',
-'[special-bonus]',
-'[bonus-join-now-sentence]',
-'[bonus-join-now-paragraph1]',
-'[bonus-join-now-paragraph2]',
-'[bonus-join-now-paragraph3-action-text]',
-'[review-section-title]',
-'[comment5]',
-'[response5]',
-'[comment4]',
-'[response4]',
-'[comment3]',
-'[response3]',
-'[comment2]',
-'[response2]',
-'[comment1]',
-'[response1]',
-'[benefit-title]'	,
-'[introductory-hook]',
-'[benefit-point1]', 
-'[benefit-point2]'	,
-'[statistic1]'	,
-'[product-name]'	,
-'[product-method-description]'	,
-'[product-name-title]'	,
-'[img-alt-1]'	,
-'[img-alt-2]'	,
-'[img-alt-3]'	,
-'[img-alt-4]'	,
-'[img-alt-5]'	
-]
-
-# List of replacements
-replacements = [
-    'https://07caegk5r7hhpu0k7j42q8w58q.hop.clickbank.net/?tid=mysticguard',
+vari = [
 
 "Discover the Power of MysticGuard Sketch: Unlock Genuine Relationships and Protection"	,
 "Are you tired of falling into toxic relationships? Do you wish to shield yourself from emotional harm? Read on."	,
@@ -280,7 +130,7 @@ replacements = [
 "Are you tired of being blindsided by toxic relationships? Discover how MysticGuard Sketch can empower you to navigate social interactions with confidence."	,
 "Recognize potential red flags and protect yourself from emotional harm and distress."	,
 "Establish genuine connections based on insights into individuals' true nature and character."	,
-"Studies show that over 90% of users report improved emotional well-being and the ability to identify toxic individuals with MysticGuard Sketch."	,
+"Studies show that over 90% /of users report improved emotional well-being and the ability to identify toxic individuals with MysticGuard Sketch."	,
 "MysticGuard Sketch"	,
 "MysticGuard Sketch provides meticulously detailed sketches and personalized insights, empowering individuals to make informed decisions and navigate relationships effectively."	,
 "Unveiling MysticGuard Sketch: Transforming the Way You Approach Relationships"	,
@@ -288,37 +138,8 @@ replacements = [
 "MysticGuard Sketch detailed sketch example"	,
 "Two individuals connecting with MysticGuard Sketch guidance"	,
 "MysticGuard Sketch testimonial quote from satisfied customer"	,
-"MysticGuard Sketch package options with bonuses"	
-    
-    ]
+"MysticGuard Sketch package options with bonuses"	,
 
-# Check if both lists have same length
-if len(placeholders) != len(replacements):
-    print(len(placeholders))
-    print(len(replacements))
-
-    raise ValueError("Both lists should have same number of elements")
-
-# Replace placeholders with replacements
-for i in range(len(placeholders)):
-    if(placeholders[i] in html_content ):
-        html_content = html_content.replace(placeholders[i], replacements[i])
-
-# Write the new HTML to a file.
-with open('updated.html', 'wb') as file:
-    file.write(html_content.encode())
- 
-
-
-with open('top-recomendations updated.txt', 'rb') as file:
-    html_content = file.read().decode(errors='replace')
-
-# Replace placeholders with replacements
-for i in range(len(placeholders)):
-    if(placeholders[i] in html_content ):
-        html_content = html_content.replace(placeholders[i], replacements[i])
-
-
-# Write the new HTML to a file.
-with open('article.html', 'wb') as file:
-    file.write(html_content.encode())
+]
+for x in vari:
+    print ('' + x +' \n \n')
