@@ -2,7 +2,7 @@
 	<div class="inside-article">
 		
 			<header class="entry-header" aria-label="Content">
-				<h1 class="entry-title" itemprop="headline">[benefit-title]</h1>			</header>
+				<a href="review/dodaj/index.html" target="_blank" style="text-decoration: none; color: rgb(164, 110, 8)"> <h1 class="entry-title" itemprop="headline">[benefit-title]</h1>	</a>		</header>
 
 			
 		<div class="entry-content" itemprop="text">
