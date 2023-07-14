@@ -148,147 +148,1011 @@ placeholders    = [
 
 # List of replacements
 replacements = [
-    'https://07caegk5r7hhpu0k7j42q8w58q.hop.clickbank.net/?tid=mysticguard',
+    'https://e8e11mp4xeb6mk73z0jemo9yfw.hop.clickbank.net/?tid=clearcrystalvision',
 
-"Discover the Power of MysticGuard Sketch: Unlock Genuine Relationships and Protection"	,
-"Are you tired of falling into toxic relationships? Do you wish to shield yourself from emotional harm? Read on."	,
-"As an experienced copywriter and marketing expert, I've seen countless individuals struggle with trust and emotional well-being. That's why I want to introduce you to a game-changing solution."	,
-"In my opinion, MysticGuard Sketch is a revolutionary tool that can transform your life by providing valuable insights and protecting you from manipulative individuals."	,
-"MysticGuard Sketch is perfect for individuals who value their emotional well-being and seek genuine relationships."	,
-"Those who have experienced heartaches and distress from toxic relationships."	,
-"Individuals looking to navigate social interactions with confidence and peace of mind."	,
-"Business professionals who want to evaluate their connections and forge authentic relationships."	,
-"Parents concerned about protecting their loved ones from harmful influences."	,
-"Anyone who desires personal growth and a life free from manipulation."	,
-"Personally, I have witnessed the transformative power of MysticGuard Sketch. It has helped me avoid toxic individuals and establish meaningful connections."	,
-"Identify manipulative individuals before meeting them face to face."	,
-"MysticGuard Sketch"	,
-"Safeguard yourself from emotional harm and navigate social interactions with confidence."	,
-"MysticGuard Sketch provides meticulously detailed sketches of individuals, enabling you to recognize potential red flags and establish healthier relationships."	,
-"Let MysticGuard Sketch be your guide, protecting you from manipulative individuals and empowering you to make proactive decisions."	,
-"Maria's Success Inc."	,
-"Trustworthy Connections Ltd."	,
-"Safe and Secure Enterprises"	,
-"Guarded Relationships Co."	,
-"Now let's delve into the key points that make MysticGuard Sketch truly remarkable."	,
-"MysticGuard Sketch provides a detailed portrayal of an individual's true nature and character."	,
-"The sketches help you sever ties with manipulative individuals, protecting your life from distress and problems."	,
-"Real-Life Examples of MysticGuard Sketch in Action"	,
-"Maria Beltran avoided a manipulative individual, saving her professional reputation."	,
-"Martha Beth Stein protected her daughter from harmful influences with the guidance of MysticGuard Sketch."	,
-"John Smith discovered a potential red flag through the sketch, avoiding a toxic relationship."	,
-"Sarah Johnson used MysticGuard Sketch to evaluate business connections and establish genuine partnerships."	,
-"James Anderson experienced personal growth and built healthier relationships after using MysticGuard Sketch."	,
-"In conclusion, MysticGuard Sketch offers a unique opportunity to shield yourself from manipulation and embrace a life filled with genuine connections and personal growth."	,
-"But let's look at some astonishing statistics that highlight the effectiveness of MysticGuard Sketch."	,
-"Over 90% of users reported improved emotional well-being and the ability to identify toxic individuals."	,
-"Now, let me walk you through the steps to embark on your journey with MysticGuard Sketch."	,
-"But before we dive into the steps, let's revisit the key benefits you'll experience with MysticGuard Sketch."	,
-"Proactively protect yourself from emotional harm and toxic relationships."	,
-"By receiving detailed sketches and insights, you'll have the power to recognize potential red flags and make informed decisions."	,
-"Imagine avoiding a manipulative person and saving yourself from heartache and distress."	,
-"Now let's explore another incredible benefit MysticGuard Sketch offers."	,
-"Establish genuine connections and navigate social interactions with confidence."	,
-"The sketches provide you with insights into an individual's true nature, enabling you to forge healthier relationships and build trust."	,
-"Imagine evaluating professional connections and building partnerships based on genuine trust and compatibility."	,
-"Step 1: Visit the Official MysticGuard Sketch Website"	,
-"Go to the official website by clicking the link provided."	,
-"Choose your preferred package: 1 sketch, 2 sketches, or 3 sketches."	,
-"Complete the purchase process securely and efficiently."	,
-"Now, let's explore some topics you'll find on the official website to make an informed decision."	,
-"Detailed information about the process and how the sketches are created."	,
-"Testimonials from satisfied customers who have experienced the benefits firsthand."	,
-"Frequently Asked Questions to address any concerns or doubts you may have."	,
-"Money-back guarantee and customer support details to ensure your satisfaction."	,
-"Secure payment options and data protection measures for a worry-free purchase."	,
-"Step 2: Receive Your Personalized MysticGuard Sketch"	,
-"Within a few days of your purchase, you'll receive a meticulously detailed sketch via email."	,
-"Carefully examine the sketch and take note of the intricate details, expressions, and facial features depicted."	,
-"The sketch provides a visual representation of the person you should be cautious of, empowering you to make informed decisions."	,
-"Step 3: Explore the MysticGuard Sketch Website for In-Depth Information"	,
-"Visit the MysticGuard Sketch website and navigate through the wealth of information provided."	,
-"Discover the key features, benefits, and testimonials that further reinforce the effectiveness of MysticGuard Sketch."	,
-"Let's delve into some important topics you'll find on the website to enhance your understanding."	,
-"How the sketches are created: Insights into the meticulous process employed by psychics Zela and Ram."	,
-"Real-life testimonials: Stories from satisfied customers who have experienced the power of MysticGuard Sketch firsthand."	,
-"Frequently Asked Questions: Find answers to common queries and address any doubts or concerns."	,
-"Money-back guarantee and customer support: Assurance of a risk-free purchase and access to dedicated assistance."	,
-"Data protection and privacy: Details on how your personal information is safeguarded during the process."	,
-"By exploring these topics, you'll gain deeper insights into the authenticity and effectiveness of MysticGuard Sketch."	,
-"It will help you make an informed decision and ensure your satisfaction with the product."	,
-"The detailed process of sketch creation showcases the expertise and accuracy of psychics Zela and Ram."	,
-"Real-life testimonials validate the positive impact of MysticGuard Sketch on individuals' lives, building trust in its efficacy."	,
-"Step 4: Experience the Transformative Power of MysticGuard Sketch"	,
-"Now, let's uncover the incredible benefits you'll enjoy by embracing MysticGuard Sketch."	,
-"But before that, let's understand why this system stands out from other alternatives in the market."	,
-"By providing detailed sketches and personalized insights, MysticGuard Sketch offers a comprehensive solution for protecting your emotional well-being and fostering genuine connections."	,
-"Accurate and detailed sketches: Recognize potential red flags and avoid toxic individuals."	,
-"Insights into true nature and character: Establish meaningful connections based on genuine compatibility."	,
-"Proactive decision-making: Shield yourself from emotional harm and make informed choices."	,
-"Enhanced personal safety: Navigate social interactions confidently with the power of insights."	,
-"Uncover hidden intentions: Protect yourself from manipulative individuals who may harm your well-being."	,
-"By following these four steps, you'll embark on a transformative journey towards genuine relationships and emotional well-being."	,
-"Putting it All Together: The System's Benefits at a Glance"	,
-"Now, let's summarize the key benefits you'll experience by embracing MysticGuard Sketch."	,
-"Protection from emotional harm and toxic relationships."	,
-"Confidence in navigating social interactions and establishing genuine connections."	,
-"Proactive decision-making based on insights into individuals' true nature."	,
-"Personal safety and avoidance of manipulative individuals."	,
-"Uncovering hidden intentions and safeguarding your emotional well-being."	,
-"Introducing MysticGuard Sketch: A Path to Genuine Relationships and Emotional Well-being"	,
-"Now, let's address the ethics surrounding MysticGuard Sketch."	,
-"Some might question the ethical implications of using psychic insights for personal decision-making."	,
-"However, it's important to remember that MysticGuard Sketch empowers individuals to protect themselves from potential harm and make informed choices."	,
-"The ethicality of using psychic abilities is subjective, but the testimonials and positive experiences of users speak for themselves."	,
-"Psychics Zela and Ram have honed their skills to genuinely help individuals, and their intentions are focused on promoting emotional well-being."	,
-"Now, let's consider the ethical perspective of using MysticGuard Sketch."	,
-"MysticGuard Sketch respects individuals' autonomy and empowers them to make decisions based on insights."	,
-"It promotes self-awareness, personal growth, and protection from manipulation, all of which align with ethical principles."	,
-"The ethicality of seeking guidance and support is a personal choice, and MysticGuard Sketch offers a tool for individuals seeking such assistance."	,
-"It enables users to foster genuine connections and establish healthier relationships, which are essential aspects of ethical interpersonal interactions."	,
-"How to Start Your MysticGuard Sketch Journey"	,
-"To begin your transformative journey with MysticGuard Sketch, follow these simple steps."	,
-"Visit the official MysticGuard Sketch website and choose your preferred package."	,
-"But before you get started, let me introduce you to the exciting bonus offers available."	,
-"Bonus #1: Exclusive access to a private community of like-minded individuals seeking personal growth and genuine connections."	,
-"Bonus #2: A comprehensive guide on recognizing and avoiding toxic relationships in different areas of your life."	,
-"Bonus #3: Weekly inspirational emails from psychics Zela and Ram to support you on your journey."	,
-"Bonus #4: Personalized guidance on interpreting the sketches and making the most of the insights provided."	,
-"Real Proof of MysticGuard Sketch's Effectiveness"	,
-"Let's take a closer look at the bonus options available to enhance your MysticGuard Sketch experience."	,
-"Option #1: Join our exclusive webinars conducted by renowned relationship experts."	,
-"Option #2: Access to additional sketch interpretations for a deeper understanding of the individuals you encounter."	,
-"Option #3: Personal coaching sessions with psychics Zela and Ram to guide you through your journey."	,
-"Based on my experience and the overwhelming positive feedback from satisfied users, I wholeheartedly recommend MysticGuard Sketch."	,
-"Special Bonus: Limited-time offer! Receive a free digital copy of 'The Art of Authentic Connections' by renowned author Jane Doe."	,
-"Join now and take advantage of these incredible bonuses to enhance your MysticGuard Sketch experience."	,
-"To claim your bonuses and start your transformative journey, visit the official MysticGuard Sketch website."	,
-"Select your preferred package and gain instant access to the bonuses, ensuring a comprehensive and rewarding experience."	,
-"Take action now and embark on a life-changing path with MysticGuard Sketch!"	,
-"MysticGuard Sketch: A Review of its Transformative Power"	,
-"I was skeptical at first, but after trying MysticGuard Sketch, I'm amazed by its accuracy. It has truly helped me navigate my relationships with confidence."	,
-"Thank you for sharing your experience! We're thrilled that MysticGuard Sketch has had a positive impact on your life."	,
-"The sketches provided by MysticGuard are incredibly detailed. It's like having a glimpse into someone's true nature even before meeting them. Highly recommended!"	,
-"We appreciate your feedback! The detailed sketches are a key feature of MysticGuard Sketch, enabling users to make informed decisions and protect themselves."	,
-"MysticGuard Sketch has been a game-changer for me. It helped me identify a toxic person in my life and avoid further heartache. I can't thank you enough!"	,
-"We're delighted to hear that MysticGuard Sketch has made a positive difference in your life. Thank you for sharing your story with us."	,
-"I was hesitant to try MysticGuard Sketch at first, but I'm so glad I did. It has given me the confidence to trust my instincts and build healthier relationships."	,
-"We understand your initial hesitation, and we're thrilled that MysticGuard Sketch has exceeded your expectations. Thank you for sharing your experience!"	,
-"I was curious about MysticGuard Sketch, so I decided to give it a try. The insights provided were eye-opening and helped me avoid potential trouble. Highly recommend!"	,
-"Thank you for sharing your positive experience with MysticGuard Sketch! We're glad it has helped you make proactive decisions and avoid unnecessary difficulties."	,
-"Unlocking Genuine Relationships and Emotional Well-being with MysticGuard Sketch"	,
-"Are you tired of being blindsided by toxic relationships? Discover how MysticGuard Sketch can empower you to navigate social interactions with confidence."	,
-"Recognize potential red flags and protect yourself from emotional harm and distress."	,
-"Establish genuine connections based on insights into individuals' true nature and character."	,
-"Studies show that over 90% of users report improved emotional well-being and the ability to identify toxic individuals with MysticGuard Sketch."	,
-"MysticGuard Sketch"	,
-"MysticGuard Sketch provides meticulously detailed sketches and personalized insights, empowering individuals to make informed decisions and navigate relationships effectively."	,
-"Unveiling MysticGuard Sketch: Transforming the Way You Approach Relationships"	,
-"Person holding MysticGuard Sketch sketch"	,
-"MysticGuard Sketch detailed sketch example"	,
-"Two individuals connecting with MysticGuard Sketch guidance"	,
-"MysticGuard Sketch testimonial quote from satisfied customer"	,
-"MysticGuard Sketch package options with bonuses"	
+
+
+"Crystal clear vision naturally: Transform your life.",
+
+
+"Imagine this: you're at your go-to spot, soaking in the breathtaking views, yet your vision isn't what it used to be. Frustrating, right? Imagine this: a natural way to not just maintain, but actually enhance your vision.",
+
+
+"Hi, I'm an adventurer, a seeker of remedies, and a believer in the body's healing power. Years in health industry. Sharing revolutionary discovery.",
+
+
+"Clear Crystal Vision has changed my life. Not magic, just science and nature in perfect harmony. I dig the natural ingredients and the three-step process for better eye health. Love natural alternatives? Digging the transparency of this product. What I love most is the freedom to adventure without worrying about my vision. It's a life-changing experience, and I'm confident it can do the same for you.",
+
+
+"Worried about your eyes? Want better vision naturally?",
+
+
+"Digital screen addicts.",
+
+
+"Preserve your vision, seniors.",
+
+
+"Folks with eye issues in their bloodline",
+
+
+"Clear vision is crucial for adventurers.",
+
+
+"Health nuts seeking all-natural options.",
+
+
+"Took Clear Crystal Vision for 3 months. Saw better details. Sharper vision, even at night.",
+
+
+"Clear Crystal Vision: Nourishes and maintains eye health naturally.",
+
+
+"Crystal clear vision.",
+
+
+"Clear Crystal Vision's effectiveness lies in its three-step process: nutrient absorption, cessation of nerve cell negative influence, and maintaining a healthy flow to the eyes.",
+
+
+"First, your body eagerly absorbs the potent nutrients in the formula. These nutrients prevent nerve cell damage. Feed your eyes for peak performance.",
+
+
+"Clear Crystal Vision is the key to maintaining optimal eye health. Trust me, I've seen it firsthand and heard countless success stories.",
+
+
+"Optimum Health Co. recognizes Clear Crystal Vision's power.",
+
+
+"VitalityPlus health gurus are buzzing about it too.",
+
+
+"GreenLife Corp: All-natural ingredients recognized.",
+
+
+"NutraReview, the top health supplement reviewer, gives it a thumbs up.",
+
+
+"Now, let's dive into the key points that make this product a standout.",
+
+
+"100% natural. No hidden or harmful chemicals.",
+
+
+"Three steps. Comprehensive eye health.",
+
+
+"Discover the incredible advantages of Clear Crystal Vision.",
+
+
+"See better.",
+
+
+"Enhances the body's natural toxin filtration",
+
+
+"Optic cells strengthened and nourished.",
+
+
+"Healthy eyes.",
+
+
+"Better eye performance.",
+
+
+"Clear Crystal Vision: The ultimate solution for eye health. All-natural ingredients that work in harmony with your body.",
+
+
+"Check out these mind-blowing stats.",
+
+
+"Hey, did you know? Did you know that a whopping 60% of folks spend over 6 hours a day glued to their screens? That's a whole lot of eye strain, my friend.",
+
+
+"Clear Crystal Vision works in just three simple steps.",
+
+
+"First, let's dive into the benefits.",
+
+
+"Clearer vision - benefit 1.",
+
+
+"Improve vision clarity with Clear Crystal Vision. Reduces blur, enhances fine details.",
+
+
+"Imagine enjoying your favorite book or admiring a breathtaking view without the hassle of wearing glasses. That's the improvement we're after.",
+
+
+"Next benefit.",
+
+
+"Benefit 2: Filter Toxins Better",
+
+
+"Boost your body's toxin-filtering ability for healthier eyes.",
+
+
+"Great news for those in polluted areas or with risky habits!",
+
+
+"Absorb nutrients powerfully.",
+
+
+"Pop that first capsule and boom! Nutrient absorption kicks into high gear.",
+
+
+"Potent nutrients sourced from natural locales make up Clear Crystal Vision.",
+
+
+"These nutrients nourish your eye cells and support your body's toxin-filtering ability.",
+
+
+"First step key aspects.",
+
+
+"Instantly absorbed by the body.",
+
+
+"Powerful and organic components",
+
+
+"Boosts toxin filtration in the body.",
+
+
+"Feeds eye cells",
+
+
+"Eye health upkeep kick-started.",
+
+
+"Stop the nerve cell negativity.",
+
+
+"Clear Crystal Vision's nutrients activate eye nerve cells.",
+
+
+"They shield cells, ward off harm, and thwart vision impairment.",
+
+
+"Nerve cells are crucial for your vision. They transmit visual information from your eyes to your brain.",
+
+
+"Keep blood flowing to your eyes for good eye health.",
+
+
+"Maintain healthy eye nutrients with Clear Crystal Vision. Supports circulatory system for optimal eye health.",
+
+
+"This special mix keeps your blood vessels healthy, giving your eyes the nutrients they need to work their best.",
+
+
+"Key points of step three.",
+
+
+"Boosts blood flow",
+
+
+"Keep those eyes well-nourished!",
+
+
+"Unique blend of natural ingredients.",
+
+
+"Healthy blood vessels.",
+
+
+"Optimal eye function - contribute.",
+
+
+"Step 3: Nourish your eyes for better vision and eye health.",
+
+
+"Clear Crystal Vision stands out from other eye health supplements due to its comprehensive process.",
+
+
+"Clear Crystal Vision doesn't just provide nutrients, it goes the extra mile to ensure optimal eye health.",
+
+
+"This process is the key to the product's effectiveness.",
+
+
+"Step 4: Reaping the Rewards",
+
+
+"Now, the final stage of the journey with Clear Crystal Vision begins.",
+
+
+"Now, reap the rewards after the initial three steps.",
+
+
+"Clear Crystal Vision: See better, day and night.",
+
+
+"See better. clarity",
+
+
+"Night vision improving.",
+
+
+"Tired eyes? Screen time? No problem.",
+
+
+"Colors pop!",
+
+
+"Better vision, more confidence.",
+
+
+"Clear Crystal Vision: The ultimate solution for natural eye health.",
+
+
+"Here's the deal: when it comes to putting it all together, you need to keep it short and sweet. No fluff, no filler. Just the essentials. That's the key to success. So, let's",
+
+
+"Now, let's quickly go over the big advantages of this eye health system.",
+
+
+"Sharper sight. Clear and detailed understanding",
+
+
+"Vision-boosting nerve cells fortified.",
+
+
+"Boost your body's toxin filtration",
+
+
+"Keep those peepers in tip-top shape with a steady flow of blood.",
+
+
+"Natural, safe, effective ingredients.",
+
+
+"Crystal Vision: The Ultimate Eye Health Solution",
+
+
+"Let's talk ethics. Clear Crystal Vision values them.",
+
+
+"Transparency in ingredient sourcing: a major ethical concern.",
+
+
+"Natural ingredients, but undisclosed sourcing. Ethical concerns arise.",
+
+
+"Recycling confusion: Packaging lacks clear directives.",
+
+
+"Packaging lacks clear recyclable labeling, may not appeal to eco-conscious consumers.",
+
+
+"Clear Crystal Vision has ethical practices worth mentioning.",
+
+
+"Natural, safe ingredients: an ethical must.",
+
+
+"Clear Crystal Vision uses only natural ingredients, guaranteeing consumer safety.",
+
+
+"Transparency in manufacturing: crucial ethical standpoint.",
+
+
+"Strict manufacturing standards. Transparent practices. Trust built with customers.",
+
+
+"Clear Crystal Vision: The Ultimate Guide to Getting Started Are you ready to embark on a journey towards achieving clear crystal vision? Look no further! This ultimate guide is all you need to get started. Let's dive right in!",
+
+
+"Clear Crystal Vision makes improving your eye health a breeze. Just follow the directions on the packaging. That's all. Take one capsule daily.",
+
+
+"In just a few weeks, your vision will improve. Clarity, detail, and eye health will all get better.",
+
+
+"And that's not all. Clear Crystal Vision: Bonus offers included. More compelling.",
+
+
+"Free shipping on all orders - Bonus Offer 1.",
+
+
+"Buy 2, get 1 free!",
+
+
+"Exclusive eye health tips and tricks - available now!",
+
+
+"Free Eye Exam: Talk to a pro optometrist for nada.",
+
+
+"Pudding's Proof: Stories of Success",
+
+
+"Insane Bonus Bargains",
+
+
+"Free shipping for all orders.",
+
+
+"2 options: Buy 2, get 1 free.",
+
+
+"Exclusive eye health tips and tricks at your fingertips. Option 3.",
+
+
+"Clear Crystal Vision is the real deal for better vision. It's got everything you need - a comprehensive approach, natural ingredients, and tons of benefits. Trust me, I highly recommend it.",
+
+
+"Free eye exam with expert optometrist.",
+
+
+"Join now and get exclusive bonuses with Clear Crystal Vision!",
+
+
+"Now is the perfect time to put your eye health first. Choose Clear Crystal Vision for better eye health.",
+
+
+"And with the bonuses, you'll get more bang for your buck. Why wait? Get clear vision now!",
+
+
+"Order Clear Crystal Vision supplements now. Get incredible bonus offers. Click 'Buy Now'.",
+
+
+"User reviews for Clear Crystal Vision are fantastic! People are loving this product and experiencing amazing results. Don't miss out on the opportunity to improve your vision. Get Clear Crystal Vision today!",
+
+
+"Clear Crystal Vision works! My vision has improved in just one month. No more squinting at small text. Sarah, 45.",
+
+
+"Sarah, thanks for sharing! Great news! Your improvements are fantastic.",
+
+
+"Used Clear Crystal Vision for 2 weeks. Eyes less strained after long computer hours. - Mark, 35",
+
+
+"Awesome news, Mark! Keep using Clear Crystal Vision for maximum benefits!",
+
+
+"Clear Crystal Vision - night vision improved. Night driving confidence boosted. Linda, 50.",
+
+
+"Great to hear Clear Crystal Vision is working for you, Linda! Drive safe!",
+
+
+"Optometrist saw better eye health at last checkup. Clear Crystal Vision is the key! - Adam, 38",
+
+
+"Awesome, Adam! Clear Crystal Vision is thrilled to help you maintain your eye health!",
+
+
+"Product is natural and safe. Love it. No side effects, wonders for my eyes. - Emma, 42",
+
+
+"Thanks for the feedback, Emma! High-quality, natural eye health solutions - that's our commitment!",
+
+
+"Crystal clear vision. That's what you get.",
+
+
+"Tired of squinting, struggling to drive at night, or dealing with tired eyes after a long day in front of a screen? Introducing Clear Crystal Vision, the ultimate remedy for your vision troubles.",
+
+
+"Crystal-clear vision",
+
+
+"Night vision boost",
+
+
+"9 out of 10 users see clearer with Clear Crystal Vision in just one month.",
+
+
+"Crystal clear vision.",
+
+
+"Introducing Clear Crystal Vision: the ultimate eye health supplement. 4 steps: Nutrients, protect nerves, blood flow, better vision.",
+
+
+"Clear Crystal Vision - The ultimate solution for crystal clear vision.",
+
+
+"Clear Crystal Vision bottle - see clearly, crystal clear.",
+
+
+"Crystal Vision capsules - Get clear vision!",
+
+
+"Clear Crystal Vision changed my life! I can see crystal clear now. Highly recommend!",
+
+
+"Crystal Vision ingredients up close.",
+
+
+"Get Clear Crystal Vision now!",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
     
     ]
 

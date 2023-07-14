@@ -99,12 +99,12 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" type="application/rss+xml" title="Elevate &raquo; Feed"
-        href="https://workathomeguy.com/feed/" />
+        href="https://bigsavings99off.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Elevate &raquo; Comments Feed"
-        href="https://workathomeguy.com/comments/feed/" />
+        href="https://bigsavings99off.com/comments/feed/" />
     <link rel="alternate" type="application/rss+xml"
         title="Elevate &raquo; Start Here (How to Make Money Online Legitimately): Comments Feed"
-        href="https://workathomeguy.com/start-here/feed/" />
+        href="https://bigsavings99off.com/start-here/feed/" />
     <script>
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1428,7 +1428,7 @@
                     </a>
                 </div>
                 <p class="main-title" itemprop="headline">
-                    <a href="[linklink]" rel="home">
+                    <a href="../../../index.html" rel="home">
                         Elevate
                     </a>
                 </p>
@@ -1446,17 +1446,17 @@
                 <ul id="menu-menu-1" class=" menu sf-menu">
                     <li id="menu-item-435"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-413 current_page_item menu-item-435">
-                        <a href="[linklink]" aria-current="page">Start Here</a></li>
+                        <a href="../../../" aria-current="page">Start Here</a></li>
                     <li id="menu-item-436"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a
-                            href="https://workathomeguy.com/wealthy-affiliate-review-2022-why-its-my-top-choice-for-making-money-online/">Top
+                            href="../../top-recomendations.html">Top
                             Recommendation</a></li>
                     <li id="menu-item-434"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a
-                            href="https://workathomeguy.com/about/">About</a></li>
+                            href="../../about.html">About</a></li>
                     <li id="menu-item-713"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-713"><a
-                            href="https://workathomeguy.com/contact/">Contact</a></li>
+                            href="../../contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="menu-bar-items"></div>
